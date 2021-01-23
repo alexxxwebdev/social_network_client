@@ -30,7 +30,13 @@
           "indent": ["error", 2, { "SwitchCase": 1 }],
           "import/no-unresolved": "off",
           "no-use-before-define": "off",
-          "no-trailing-spaces": "error"
+          "no-trailing-spaces": "error",
+          "react/prop-types": "off",
+          "no-console": "off",
+          "react/self-closing-comp": ["error", {
+            "component": true,
+            "html": true
+          }]
     },
       "settings": {
             "import/parser": "babel-eslint",

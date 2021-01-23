@@ -1,7 +1,7 @@
-import { IAuth } from 'types/auth'
+import { IAuth, IAuthError } from 'types/auth'
 
 export interface IRootReducer {
     router: any,
-    auth: IAuth,
+    auth: IAuth & IAuthError,
     form: any
 }
